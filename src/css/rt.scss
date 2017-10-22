@@ -1,0 +1,341 @@
+/*
+--  VA79 Typography
+*/
+html, body {
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+* {
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  font-size: 15px;
+  color: #606c76;
+  font-weight: 300;
+  line-height: 1.1em;
+  letter-spacing: 1.2px;
+  text-size-adjust: 100%;
+  /*
+  --  Below can be used by preverence
+  */
+  /*-webkit-font-smoothing: none;*/
+  /*-webkit-font-smoothing: subpixel-antialiased;*/
+  /*-webkit-font-smoothing: antialiased;*/
+}
+
+h1, h1 a, h2, h2 a, h3, h3 a, h4, h4 a, h5, h5 a, h6, h6 a {
+  display: block;
+  font-weight: 300;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  color: #606c76;
+  text-decoration: none;
+}
+
+h1, h1 a, h1.section {
+  font-size: 2.5rem;
+  line-height: 1.1;
+  margin-bottom: .5rem;
+}
+
+h2, h2 a, h2.section {
+  font-size: 2.0rem;
+  line-height: 1.1;
+  margin-bottom: .5rem;
+}
+
+h3, h3 a, h3.section {
+  font-size: 1.75rem;
+  line-height: 1.1;
+  margin-bottom: .5rem;
+}
+
+h4, h4 a, h4.section {
+  font-size: 1.5rem;
+  line-height: 1.1em;
+  margin-bottom: .5rem;
+}
+
+h5, h5 a, h5.section {
+  font-size: 1.25rem;
+  line-height: 1.1em;
+  margin-bottom: .5rem;
+}
+
+h6, h6 a, h6.section {
+  font-size: 1.0rem;
+  line-height: 1.1em;
+  margin-bottom: .5rem;
+}
+
+h1.section,
+h2.section,
+h3.section,
+h4.section,
+h5.section,
+h6.section {
+  padding-bottom: .2rem;
+  margin-bottom: .5rem;
+  border-bottom: dotted 1px #bbbbbb;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  text-decoration: underline;
+}
+
+p {
+  display: inline-block;
+  font-size: 1em;
+  line-height: 1.4em;
+  margin-bottom: .5rem;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 15px 0px;
+}
+
+p a,
+p a:link,
+p a:visited {
+  text-decoration: underline;
+}
+
+p a:hover {
+  text-decoration: none;
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+  cursor: pointer;
+  outline: 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+}
+
+img.alignleft {
+  float: right;
+  margin: 0px 10px 10px 0px;
+}
+
+img.alignright {
+  float: right;
+  margin: 0px 0px 10px 10px;
+}
+
+ul, ol {
+  display: inline-block;
+  line-height: 1.4em;
+  margin-bottom: .5rem;
+  margin-left: 15px;
+}
+
+ul {
+  list-style: initial;
+}
+
+ul:dir(rtl) {
+  margin-left: 0px;
+  marginb-right: 15px;
+}
+
+ol {
+  list-style: decimal;
+}
+
+ol:dir(rtl) {
+  margin-left: 0px;
+  marginb-right: 15px;
+}
+
+ul.coloured {
+  display: inline-block;
+  list-style: none;
+  line-height: 1.4em;
+  margin-bottom: .5rem;
+  margin-left: 12px;
+}
+
+ul.coloured:dir(rtl) {
+  margin-left: 0px;
+  margin-right: 12px;
+}
+
+ul.coloured li:before {
+  content: "•";
+  font-weight: 700;
+  color: lightblue;
+  display: inline-block;
+  width: 12px;
+  float:left;
+  margin: 1px 0px 0px -12px;
+}
+
+ul.coloured li:before:dir(rtl) {
+  margin: 0px 0px 0px 0px;
+}
+
+ul.coloured li:after:dir(rtl) {
+  margin: 1px -12px 0px 0px;
+}
+
+li {
+  line-height: 1.4em;
+}
+
+hr {
+  border: none;
+  border-bottom: dotted 1px #bbbbbb;
+  height: 1px;
+}
+
+object, embed {
+  outline: 0;
+}
+
+strong, b {
+  font-weight: 500;
+}
+
+cite, em, i {
+  font-style: italic;
+}
+
+s, del, strike{
+  text-decoration: line-through;
+}
+
+small {
+  font-size: 0.7rem;
+}
+
+big {
+  font-size: 1.15rem;
+}
+
+sup {
+  bottom: 1ex;
+}
+
+sub {
+  top: 0.5ex;
+}
+
+sup, sub{
+  font-size: 0.75rem;
+  height: 0;
+  line-height: 1;
+  position: relative;
+  vertical-align: baseline;
+}
+
+abbr, acronym, dfn {
+  border-bottom: 1px dotted #bbbbbb;
+  cursor: help;
+}
+
+pre {
+  display: block;
+  line-height: 1.4em;
+  margin: 10px 0px 10px 0px;
+  padding: 15px 15px 15px 15px;
+  background: #f4f5f6;
+  border-left: solid 2px lightblue;
+  font-family: Courier , monospace;
+  overflow: auto;
+}
+
+pre:dir(rtl) {
+  border-left: none;
+  border-right: solid 2px lightblue;
+}
+
+aside {
+  display: block;
+  line-height: 1.4em;
+  margin: 10px 0px 10px 0px;
+  padding: 10px 15px 10px 15px;
+  background: #f4f5f6;
+  border-left: solid 2px lightblue;
+}
+
+aside:dir(rtl) {
+  border-left: none;
+  border-right: solid 2px lightblue;
+}
+
+aside.success {
+  border-left: solid 2px green;
+}
+
+aside.success:dir(rtl) {
+  border-left: none;
+  border-right: solid 2px green;
+}
+
+aside.warning {
+  border-left: solid 2px yellow;
+}
+
+aside.warning:dir(rtl) {
+  border-left: none;
+  border-right: solid 2px yellow;
+}
+
+aside.danger {
+  border-left: solid 2px red;
+}
+
+aside.danger:dir(rtl) {
+  border-left: none;
+  border-right: solid 2px red;
+}
+
+blockquote {
+  display: block;
+  line-height: 1.4em;
+  margin: 10px 0px 10px 0px;
+  padding: 10px 15px 10px 15px;
+  background: #f4f5f6;
+  border-left: solid 2px lightblue;
+}
+
+blockquote:dir(rtl) {
+  border-left: none;
+  border-right: solid 2px lightblue;
+}
+
+blockquote:before {
+  content: '"';
+  font-size: 1.5rem;
+  color: lightblue;
+}
+
+blockquote:after {
+  content: '"';
+  font-size: 1.5rem;
+  color: lightblue;
+}
+
+blockquote p {
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and ( max-width: 568px )
+{
+  html, body {
+    font-size: 17px;
+  }
+}

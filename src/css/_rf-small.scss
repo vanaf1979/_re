@@ -1,0 +1,32 @@
+
+
+/*
+Ellement: 	  Small
+Version:      0.1 (Concept)
+*/
+
+
+/* Small (used for field hinting) */
+form small {
+  display: block;
+  margin: 0px 0px 0px 0px;
+  padding: 2px 5px 0px 0px;
+  clear: both;
+  font-size: 80%;
+  color: #222222;
+  font-style: italic;
+  text-align: right;
+}
+
+
+/*
+-- Mobile responsive
+*/
+
+@media screen and ( max-width: 568px )
+{
+  small {
+    font-size: 100%;
+    text-align: left;
+  }
+}

@@ -1,0 +1,31 @@
+
+
+/*
+Ellement: 	  Checkbox
+Version:      0.1 (Concept)
+*/
+
+
+input[type="checkbox"] {
+  display: block;
+  width: 22px;
+  height: 22px;
+  padding: 0px 0px 0px 0px;
+  margin: 2px 0px 0px 0px;
+}
+
+
+/*
+-- Mobile responsive
+*/
+
+@media screen and ( max-width: 568px )
+{
+  input[type="checkbox"] {
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 0px 0px 0px 0px;
+    margin: 2px 0px 0px 0px;
+  }
+}

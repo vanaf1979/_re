@@ -1,0 +1,39 @@
+
+
+/*
+Ellement: 	  Textarea
+Version:      0.1 (Concept)
+*/
+
+
+textarea {
+  width: 100%;
+  height: 120px;
+  padding: 3px 5px 5px 5px;
+  margin: 0px 0px 0px 0px;
+  box-sizing: border-box;
+  resize: none;
+  border: solid 1px #bbbbbb;
+  outline: none;
+}
+
+textarea:focus {
+  border: 1px solid #bbbbbb;
+}
+
+
+/*
+-- Mobile responsive
+*/
+
+@media screen and ( max-width: 568px )
+{
+  textarea {
+    width: 100%;
+    height: 120px;
+    font-size: 17px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+  }
+}

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ReForm</title>
+
+    <meta name="keywords" content="BoilerForm" />
+    <meta name="description" content="Mini-form framework" />
+    <meta name="robots" content="index, follow" />
+
+
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./css/rt.scss"/>
+    <link rel="stylesheet" href="./css/rf.scss"/>
+
+  </head>
+
+  <body class="">
+
+    <main>
+
+      <div class="va-content">
+
+        <div class="pure-g">
+
+          <div class="pure-u-1 pure-u-sm-1 pure-u-md-1-4 pure-u-lg-1-4 pure-u-xl-1-4">
+
+            &nbsp;
+
+          </div>
+
+          <div class="pure-u-1 pure-u-sm-1 pure-u-md-1-2 pure-u-lg-1-2 pure-u-xl-1-2">
+
+
+            <header>
+
+              <h1>ReForm</h1>
+
+            </header>
+
+
+            <h2>Forms</h2>
+
+            <h4 class="section">Form ellements</h4>
+
+            <form>
+
+              <fieldset>
+
+                <legend>Im a legend</legend>
+
+                <div class="rf-formwrap">
+                  <label>Im a text field</label>
+                  <input placeholder="Im a text field" type="text"/>
+                </div>
+
+                <div class="rf-formwrap">
+                  <label>Im a disabled text field</label>
+                  <input type="text" disabled placeholder="Im a disabled text field"/>
+                </div>
+
+                <div class="rf-formwrap">
+                  <label>Im a text field with a hint</label>
+                  <input type="text" placeholder="Im a text field"/>
+                  <small>Im a hint for this text field</small>
+                </div>
+
+                <div class="rf-formwrap">
+                  <label>Im a textarea</label>
+                  <textarea placeholder="Im a textarea"></textarea>
+                </div>
+
+                <div class="rf-formwrap">
+                  <label>Im a disabled textarea</label>
+                  <textarea disabled placeholder="Im a disabled textarea"></textarea>
+                </div>
+
+                <div class="rf-formwrap">
+                  <input type="button" value="Im a input button"/>
+                </div>
+
+                <div class="rf-formwrap">
+                  <input type="submit" value="Im a submit button"/>
+                </div>
+
+                <div class="rf-formwrap">
+                  <button>Im a button</button>
+                </div>
+
+                <div class="rf-formwrap">
+                  <input disabled type="button" value="Im a input button"/>
+                </div>
+
+                <div class="rf-formwrap">
+                  <input disabled type="submit" value="Im a submit button"/>
+                </div>
+
+                <div class="rf-formwrap">
+                  <button disabled>Im a disabled button</button>
+                </div>
+
+                <div class="rf-formwrap">
+                  <label>Im a checkbox</label>
+                  <input type="checkbox" />
+                </div>
+
+                <div class="rf-formwrap">
+                  <label>Im a selectfield</label>
+                  <select>
+                    <option>Im a select option</option>
+                    <option>Im a select option</option>
+                  </select>
+                </div>
+
+              </fieldset>
+
+            </form>
+
+
+            <br/></br/>
+            <h4 class="section">Form with labels on the left and left aligned (.llal)</h4>
+
+
+            <form>
+
+              <fieldset>
+
+                <div class="rf-formwrap llal">
+                  <label>Im a label</label>
+                  <input type="text" placeholder="Im a text field"/>
+                </div>
+
+                <div class="rf-formwrap llal">
+                  <label>Im a text field</label>
+                  <input placeholder="Im a text field" type="text"/>
+                  <small>Im a hint for this text field</small>
+                </div>
+
+                <div class="rf-formwrap llal">
+                  <label>Im a label</label>
+                  <textarea placeholder="Im a textarea"></textarea>
+                </div>
+
+                <div class="rf-formwrap llal">
+                  <label>Im a label</label>
+                  <select>
+                    <option>Im a select option</option>
+                    <option>Im a select option</option>
+                  </select>
+                </div>
+
+                <div class="rf-formwrap llal">
+                  <label>Im a label</label>
+                  <input type="checkbox" />
+                </div>
+
+              </fieldset>
+
+            </form>
+
+
+            <br/></br/>
+            <h4 class="section">Form with Labels on the left and aligned right (.llar)</h4>
+
+
+            <form>
+
+              <fieldset>
+
+                <div class="rf-formwrap llar">
+                  <label>Im a label</label>
+                  <input type="text" placeholder="Im a text field"/>
+                  <small>Im a hint for this text field</small>
+                </div>
+
+                <div class="rf-formwrap llar">
+                  <label>Im a text field</label>
+                  <input placeholder="Im a text field" type="text"/>
+                </div>
+
+                <div class="rf-formwrap llar">
+                  <label>Im a label</label>
+                  <textarea placeholder="Im a textarea"></textarea>
+                </div>
+
+                <div class="rf-formwrap llar">
+                  <label>Im a label</label>
+                  <select>
+                    <option>Im a select option</option>
+                    <option>Im a select option</option>
+                  </select>
+                </div>
+
+                <div class="rf-formwrap llar">
+                  <label>Im a label</label>
+                  <input type="checkbox" />
+                </div>
+
+              </fieldset>
+
+            </form>
+
+          </div>
+
+          <div class="pure-u-1 pure-u-sm-1 pure-u-md-1-4 pure-u-lg-1-4 pure-u-xl-1-4">
+
+            &nbsp;
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </main>
+
+
+    <footer>
+
+      <p class="">© Copyright 2017 vanaf1979.nl</p>
+
+    </footer>
+
+    <script type="text/javascript" src="./public/js/bf.js"></script>
+    <script type="text/javascript" src="./public/js/bf-utils.js"> </script>
+    <script type="text/javascript" src="./public/js/bf-hacks.js"> </script>
+    <script type="text/javascript" src="./public/js/bf-validation.js"></script>
+
+  </body>
+
+</html>

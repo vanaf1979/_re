@@ -1,0 +1,47 @@
+
+
+/*
+Ellement: 	  Buttons
+Version:      0.1 (Concept)
+*/
+
+
+button,
+input[type="button"],
+input[type="submit"] {
+  width: auto;
+  height: 30px;
+  padding: 0px 10px 0px 10px;
+  background: #ffffff;
+  color: #222222;
+  border: solid 1px #bbbbbb;
+  box-sizing: border-box;
+  outline: none;
+}
+
+
+button > *,
+input[type="button"] > *,
+input[type="submit"] > *  {
+  /* Prevent event blocking */
+  pointer-events: none;
+}
+
+
+/*
+-- Mobile responsive
+*/
+
+@media screen and ( max-width: 568px )
+{
+  button,
+  input[type="button"],
+  input[type="submit"] {
+    height: 40px;
+    line-height: 35px;
+    font-size: 17px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+  }
+}

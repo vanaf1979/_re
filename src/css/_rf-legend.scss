@@ -1,0 +1,39 @@
+
+
+/*
+Ellement: 	  Legend
+Version:      0.1 (Concept)
+*/
+
+
+form legend {
+  display: inline-block;
+  width: 100%;
+  margin: 15px 0px 15px 0px;
+  padding: 0px 0px 4px 0px;
+  color: #606c76;
+  border-bottom: dotted 1px #222222;
+}
+
+form legend:first-child {
+  margin: 5px 0px 15px 0px;
+}
+
+
+/*
+-- Mobile responsive
+*/
+
+@media screen and ( max-width: 568px )
+{
+  legend {
+    display: block;
+    text-align: left;
+    width: 100%;
+    color: #222222;
+    margin: 5px auto 10px auto;
+    padding: 10px 0px 2px 0px;
+    border-bottom:
+    dotted 1px #222222;
+  }
+}

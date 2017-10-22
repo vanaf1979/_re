@@ -1,0 +1,26 @@
+
+
+/*
+Ellement: 	  Form
+Version:      0.1 (Concept)
+*/
+
+
+form {
+  display: block;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  border: none;
+}
+
+
+/*
+-- Mobile responsive
+*/
+
+@media screen and ( max-width: 568px )
+{
+  form {
+    margin: 0px 0px 10px 0px;
+  }
+}

@@ -1,0 +1,30 @@
+
+
+/*
+Ellement: 	  Placeholder
+Version:      0.1 (Concept)
+*/
+
+
+::-webkit-input-placeholder,
+:-moz-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder,
+::-ms-input-placeholder {
+  color: #222222;;
+  opacity: 1;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+
+/*
+-- Mobile responsive
+*/
+
+@media screen and ( max-width: 568px )
+{
+
+}
