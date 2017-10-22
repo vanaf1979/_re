@@ -59,20 +59,87 @@
                 <legend>Im a legend</legend>
 
                 <div class="rf-formwrap">
-                  <label>Im a text field</label>
-                  <input placeholder="Im a text field" type="text"/>
+                  <label>Im a input type email field</label>
+                  <input type="text" placeholder="Im a input type email field"/>
                 </div>
 
                 <div class="rf-formwrap">
-                  <label>Im a disabled text field</label>
-                  <input type="text" disabled placeholder="Im a disabled text field"/>
+                  <label>Im a input disabled type email field</label>
+                  <input type="text" disabled placeholder="Im a input disabled type email field"/>
                 </div>
 
                 <div class="rf-formwrap">
-                  <label>Im a text field with a hint</label>
-                  <input type="text" placeholder="Im a text field"/>
+                  <label>Im a input type text field with a hint</label>
+                  <input type="text" placeholder="Im a input type text field with a hint"/>
                   <small>Im a hint for this text field</small>
                 </div>
+
+                <div class="rf-formwrap">
+                  <label>Im a input type email field</label>
+                  <input placeholder="Im a input type email field" type="email"/>
+                </div>
+
+                <div class="rf-formwrap">
+                  <label>Im a input type color field</label>
+                  <input placeholder="Im a input type color field" type="color" value="#cccccc"/>
+                </div>
+
+                <div class="rf-formwrap">
+                  <label>Im a input type url field</label>
+                  <input placeholder="Im a input type url field" type="url"/>
+                </div>
+
+                <div class="rf-formwrap">
+                  <label>Im a input type time field</label>
+                  <input placeholder="Im a input type time field" type="time"/>
+                </div>
+
+                <div class="rf-formwrap">
+                  <label>Im a input type date field</label>
+                  <input placeholder="Im a input type date field" type="date"/>
+                </div>
+
+                <div class="rf-formwrap">
+                  <label>Im a input type datetime field</label>
+                  <input placeholder="Im a input type datetime field" type="datetime"/>
+                </div>
+
+                <div class="rf-formwrap">
+                  <label>Im a input type datetime-local field</label>
+                  <input placeholder="Im a input type datetime-local field" type="datetime-local"/>
+                </div>
+
+                <div class="rf-formwrap">
+                  <label>Im a input type month field</label>
+                  <input placeholder="Im a input type month field" type="month"/>
+                </div>
+
+                <div class="rf-formwrap">
+                  <label>Im a input type number field</label>
+                  <input placeholder="Im a input type number field" type="number" value="100"/>
+                </div>
+
+                <div class="rf-formwrap">
+                  <label>Im a input type search field</label>
+                  <input placeholder="Im a input type search field" type="search"/>
+                </div>
+
+                <div class="rf-formwrap">
+                  <label>Im a input type tel field</label>
+                  <input placeholder="Im a input type tel field" type="tel"/>
+                </div>
+
+                <div class="rf-formwrap">
+                  <label>Im a input type password field</label>
+                  <input placeholder="Im a input type password field" type="password"/>
+                </div>
+
+                <div class="rf-formwrap">
+                  <label>Im output field</label>
+                  <output name="x"></output>
+                </div>
+
+
 
                 <div class="rf-formwrap">
                   <label>Im a textarea</label>
@@ -110,8 +177,25 @@
 
                 <div class="rf-formwrap">
                   <label>Im a checkbox</label>
-                  <input type="checkbox" />
+                  <input type="checkbox" id="c1" name="cb" checked="checked"/>
+                  <label for="c1">Checkbox 1</label>
+                  <input type="checkbox" id="c2" name="cb" />
+                  <label for="c2">Checkbox 2</label>
                 </div>
+
+                <div class="rf-formwrap">
+                  <label>Im a radiobutton</label>
+                  <input type="radio" id="r1" name="rb" checked="checked"/>
+                  <label for="r1">Radio Button 1</label>
+                  <input type="radio" id="r2" name="rb" />
+                  <label for="r2">Radio Button 2</label>
+                </div>
+
+                <div class="rf-formwrap">
+                  <label>Im a range field</label>
+                  <input type="range" name="points" min="0" max="10">
+                </div>
+
 
                 <div class="rf-formwrap">
                   <label>Im a selectfield</label>
@@ -120,6 +204,19 @@
                     <option>Im a select option</option>
                   </select>
                 </div>
+
+                <div class="rf-formwrap">
+                  <label>Im a inputlist datalist</label>
+                  <input list="browsers">
+                  <datalist id="browsers">
+                    <option value="Internet Explorer">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
+                  </datalist>
+                </div>
+
 
               </fieldset>
 

@@ -7,32 +7,97 @@ Version:      0.1 (Concept)
 
 
 input {
-  display: inline-block;
-  margin: 0px 0px 0px 0px;
-  box-sizing: border-box;
-  border: solid 1px #bbbbbb;
+  // display: inline-block;
+  // margin: 0px 0px 0px 0px;
+  // box-sizing: border-box;
+  // border: solid 1px #bbbbbb;
 }
 
+input[type="text"],
 input[type="email"],
 input[type="url"],
 input[type="time"],
 input[type="date"],
 input[type="datetime"],
+input[type="datetime-local"],
 input[type="number"],
 input[type="month"],
 input[type="search"],
 input[type="tel"],
-input[type="text"],
 input[type="password"] {
+  display: inline-block;
+  box-sizing: border-box;
   width: 100%;
   height: 30px;
+  margin: 0px 0px 0px 0px;
   padding: 0px 5px 0px 5px;
+  border: solid 1px #bbbbbb;
   line-height: 30px;
   outline: none;
 }
 
 input:focus {
-  border: 1px solid #bbbbbb;
+  border: 1px solid lightblue;
+}
+
+input[type="text"] {
+
+}
+
+input[type="email"] {
+
+}
+
+input[type="color"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+	width: 60px;
+	height: 30px;
+  border: none;
+  border: solid 1px #bbbbbb;
+}
+
+input[type="url"] {
+
+}
+
+input[type="time"] {
+
+}
+
+input[type="date"] {
+
+}
+
+input[type="datetime"] {
+
+}
+
+input[type="datetime-local"] {
+
+}
+
+input[type="number"] {
+  width: auto;
+  height: 30px;
+}
+
+input[type="month"] {
+
+}
+
+input[type="search"] {
+
+}
+
+input[type="tel"] {
+
+}
+
+input[type="password"] {
+
 }
 
 
