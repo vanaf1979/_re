@@ -1,13 +1,13 @@
 /*
-Project: 	    BoilerForm
-Description:  Mini-form framework
-Author:       BoilerForm Team
-Project URI: 	http://github.com/BoilerForm
+Project: 	    ReForm
+Description:  Mini framework
+Author:       Vanaf1979
+Project URI: 	https://github.com/vanaf1979/_re
 Version:      0.1 (Concept)
 */
 
 
-bf.utils = {
+rf.utils = {
 
   /*
   --  ### MISC
