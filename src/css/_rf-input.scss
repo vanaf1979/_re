@@ -7,10 +7,7 @@ Version:      0.1 (Concept)
 
 
 input {
-  // display: inline-block;
-  // margin: 0px 0px 0px 0px;
-  // box-sizing: border-box;
-  // border: solid 1px #bbbbbb;
+  //
 }
 
 input[type="text"],
@@ -28,12 +25,17 @@ input[type="password"] {
   display: inline-block;
   box-sizing: border-box;
   width: 100%;
-  height: 30px;
+  height: 2.2rem;
   margin: 0px 0px 0px 0px;
   padding: 0px 5px 0px 5px;
+
   border: solid 1px #bbbbbb;
-  line-height: 30px;
+  line-height: 2.2rem;
   outline: none;
+
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
 }
 
 input:focus {
@@ -120,7 +122,8 @@ input[type="password"] {
   input[type="text"],
   input[type="password"] {
     width: 100%;
-    height: 40px;
+    height: 2.8rem;
+    padding: 1px 5px 0px 5px;
     line-height: 40px;
     font-size: 17px;
     -moz-border-radius: 3px;

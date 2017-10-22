@@ -1,0 +1,52 @@
+
+
+/*
+Ellement: 	  Input type[file]
+Version:      0.1 (Concept)
+*/
+
+
+input[type='file']::-ms-value {
+    background: #bbbbbb;
+    border: none;
+}
+
+input[type='file']::-ms-browse {
+  padding-top: .1rem;
+  background: none;
+  border: solid 1px #bbbbbb;
+  //color: $form-input-color;
+}
+
+input[type='file']::-ms-browse:active {
+  background-color: lighten($button-background, 5);
+}
+
+input[type='file']::-webkit-file-upload-button {
+  -webkit-appearance: none;
+  border-radius: 0;
+  background: none;
+  border: solid 1px #bbbbbb;
+}
+
+input[type='file']::-webkit-file-upload-button:active {
+  background-color: green;
+}
+
+
+/*
+-- Mobile responsive
+*/
+
+@media screen and ( max-width: 568px )
+{
+  input[type='file'] {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 17px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+  }
+}
