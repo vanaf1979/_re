@@ -7,13 +7,13 @@ Restyle is a work in progress and by no means the only/best way of doing things.
 The basic element section is largely based on reset css and is rewritten to conform to the rest of the styles and to remove duplicates. It takes care of basic resetting of margins, paddings.
 
 #### Typography
-The font/typography in Restyle is rem and em based using relative sizes from the root html/body font-size. This allows for font resizing by adjusting the base font-size on the html/body element. Restyle uses almost no functional styling of typography except for a few useful extra classes like succes/warning/danger boxes, blockquotes and coloured ul bullets. It also defaults to a recommended 17px font-size for mobile devices ( < 568px ). [View demos here](https://Restyle.vanaf1979.nl.com/typo.html)
+The font/typography in Restyle is rem and em based using relative sizes from the root html/body font-size. This allows for font resizing by adjusting the base font-size on the html/body element. Restyle uses almost no functional styling of typography except for a few useful extra classes like succes/warning/danger boxes, blockquotes and coloured ul bullets. It also defaults to a recommended 17px font-size for mobile devices ( < 568px ).
 
 #### Forms elements
-Restyle sets a minimal white with grey border style to form elements and tries to create a uniform look and feel across browsers. It defaults to 17px font-sizes on mobile ( < 568px ) preventing zooming by the browser. it also has some wrapper classes and alignment classes for labels. [View demos here](https://Restyle.vanaf1979.nl.com/forms.html)
+Restyle sets a minimal white with grey border style to form elements and tries to create a uniform look and feel across browsers. It defaults to 17px font-sizes on mobile ( < 568px ) preventing zooming by the browser. it also has some wrapper classes and alignment classes for labels.
 
 #### Utility classes
-For convenience i added a couple of utility classes for common development tasks. Some basic clear fixes and alignment switching stuff based on Flexbox. [View demos here](https://Restyle.vanaf1979.nl.com/util.html)
+For convenience i added a couple of utility classes for common development tasks. Some basic clear fixes and alignment switching stuff based on Flexbox.
 
 #### Grids
 Restyle does not include a grid system because there are enough grid flavors out there, and specific functionality is not the goal of Restyle. I would recommend using [PureCss](https://github.com/yahoo/pure) or [GridZilla](https://github.com/teefouad/gridzilla) for these tasks.
